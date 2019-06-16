@@ -31,13 +31,12 @@
 |--------+ docs: 【设计参考文档】
 |--------+ hardware:【相关电路设计】      
 |            ├──README.md
-
 |--------+ software:【相关软件设计】
 |            ├──README.md
-|			 └──ETAfly  【主要系统控制程序】
+|            └──ETAfly  【主要系统控制程序】
 |--------+ machine-vision:【机器视觉】
 |            ├──README.md
-|			 └──OpenMV  【主要视觉识别】
+|            └──OpenMV  【主要视觉识别】
 |--------+ mechanical-structure:【机械结构】
 |--------+ README.md
 ```
