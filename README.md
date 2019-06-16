@@ -22,7 +22,7 @@
 |单元| FPU、DSP |
 
 
-- ![测试图](./docs/测试记录/2019.5.29.jpg)
+![测试图](https://img-blog.csdnimg.cn/20190616200215386.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NDkyOTMy,size_16,color_FFFFFF,t_70)
 
 
 
