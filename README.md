@@ -1,10 +1,10 @@
-# 1、ETAfly
+# ETAfly
 
 [软件说明](./software/README.md) |
 [硬件说明](./hardware/README.md) |
 [机械结构说明](./graphic_model/README.md)
 
-## 飞控
+## 1、飞控
 [![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu/#/en_US)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![Slack](https://img.shields.io/badge/slack-996icu-green.svg)](https://join.slack.com/t/996icu/shared_invite/enQtNTg4MjA3MzA1MzgxLWQyYzM5M2IyZmIyMTVjMzU5NTE5MGI5Y2Y2YjgwMmJiMWMxMWMzNGU3NDJmOTdhNmRlYjJlNjk5ZWZhNWIwZGM)
@@ -19,11 +19,10 @@
 |FLASH| 256KB |
 |RAM|  32KB |
 |EEPROM|  2KB |
-|UART|  8个 |
 |单元| FPU、DSP |
 
 
-- ![构建图](../docs/测试记录/2019.5.29.jpg)
+- ![构建图](./docs/测试记录/2019.5.29.jpg)
 
 
 
@@ -52,7 +51,7 @@
 ```
 
 ## 4、硬件结构
-- ![ROV Controler 3D](https://images.gitee.com/uploads/images/2019/0527/140434_ed5fdc50_2330851.jpeg "ROV_Controler_3D Model.jpg")
+
 
 ```
 +——ETAfly
@@ -83,7 +82,7 @@
 
 
 
-## 5、Underwater Vehicle 的进展
+## 5、ETAfly 的进展
 - [X] 电路设计
 
 	
