@@ -1,11 +1,12 @@
 RED_THRESHOLD = (0, 50, -128, 30, -30, 31)#(5, 89, 35, 75, -8, 50)#(28, 86, 16, 82, 14, 63) # Grayscale threshold for dark things...
 
 BLACK_WHITE_THRESHOLD = (0, 100) # Grayscale threshold for dark things...
-import sensor, image, time , math ,struct ,tool
-from pyb import UART
+import sensor, image, time , math ,struct ,json,pyb,tool
+from pyb import UART,LED
 from struct import pack, unpack
-import json
 
+
+LEDG = pyb.LED(3)
 class line_info(object):
     angle_err = 0  #角度值
     rho_err = 0  # 直线与图像中央的距离
@@ -54,16 +55,20 @@ def find_line(picture,ctrl,uart):
         #xy轴的角度变换
         theta_err = line.theta() # 0~180
         if line.theta()> 90:    #左为负
-            theta_err = line.theta() -180
+            angle_err = line.theta() -180
         else:
-            theta_err = line.theta()  #右为正
+            angle_err = line.theta()  #右为正
 
         line_info.rho_err = pack('h',rho_err) #char 类型
-        line_info.angle_err = pack('h',theta_err) #short 类型 其类型为一个列表
+        line_info.rho_err = bytearray(line_info.rho_err)
+        line_info.angle_err = pack('h',angle_err) #short 类型 其类型为一个列表
+        line_info.angle_err  = bytearray(line_info.angle_err)
         uart.write(pack_line_data(line_info,ctrl,1))#未识别 标志位为1
+        LEDG.on()
     else:
 
         uart.write(pack_line_data(line_info,ctrl,0))#未识别 标志位为0
+        LEDG.off()
 
 
 
