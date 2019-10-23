@@ -1,4 +1,4 @@
-import sensor, image, time, math , pyb ,json,single_blob,find_line
+import sensor, image, time, math , pyb ,json,single_blob,find_line,partition_patrol
 from pyb import LED,UART,Timer
 
 threshold_index = 0 # 0 for red, 1 for green, 2 for blue
@@ -10,9 +10,9 @@ thresholds = [(21, 84, 22, 90, -18, 58), # 橙红色块
               (0, 30, 0, 64, -128, 0)] # generic_blue_thresholds
 
 
-sensor.reset() # 传感器复位
+sensor.reset() # 传感器复位sensor.set_pixformat(sensor.GRAYSCALE) # use grayscale.
 sensor.set_pixformat(sensor.RGB565) # RGB565即一个彩色图像点由RGB三个分量组成，总共占据2Byte，高5位为R分量，中间6位为G分量，低5位为B分量
-sensor.set_framesize(sensor.QQVGA) # 320*240
+sensor.set_framesize(sensor.QVGA) # 320*240
 sensor.skip_frames(time = 500) # 跳过，等待摄像头稳定
 sensor.set_auto_gain(False) # 自动增益在颜色识别中一般关闭，不然会影响阈值
 sensor.set_auto_whitebal(False) # 白平衡在颜色识别中一般关闭，不然会影响阈值
@@ -25,7 +25,7 @@ uart.init(115200, bits=8, parity=None, stop=1, timeout_char=1000) # 使用给定
 
 
 class ctrl_info(object):
-    WorkMode = 0x03 # 色块检测模式  0x01为固定单颜色识别  0x02为自主学习颜色识别  0x03 巡线
+    WorkMode = 0x01 # 色块检测模式  0x01为固定单颜色识别  0x02为自主学习颜色识别  0x03 巡线
     Threshold_index = 0x00 # 阈值编号
 
 ctrl = ctrl_info() # 定义控制信息类
@@ -38,11 +38,14 @@ while(True):
     clock.tick() # 追踪时钟
     img = sensor.snapshot() # thresholds为阈值元组0
     if ctrl.WorkMode == 0x01:
-        single_blob.check_blob(img,ctrl,thresholds,threshold_index,uart)
+        single_blob.single_blob(img,ctrl,thresholds,threshold_index,uart)
     elif ctrl.WorkMode == 0x02:
         a = 0 # 暂时为空
     elif ctrl.WorkMode == 0x03:
         find_line.find_line(img,ctrl,uart)
+
+    elif ctrl.WorkMode == 0x04:
+        partition_patrol.partition_find_line(img,ctrl,uart)
 
 
 

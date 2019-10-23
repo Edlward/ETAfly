@@ -52,7 +52,7 @@
 ".\objects\ctrl_main.o"
 ".\objects\ctrl_attitude.o"
 ".\objects\ctrl_position.o"
-"D:\Keil_v526\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+"Z:\Software\Keil5\ARM\CMSIS\5.4.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
 --strict --scatter ".\Objects\ACFly EDU.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

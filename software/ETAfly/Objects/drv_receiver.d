@@ -1,10 +1,10 @@
 ./objects/drv_receiver.o: Drivers/drv_Receiver.c Basic\Basic.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\string.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\math.h Drivers/drv_Receiver.h \
-  Drivers/Receiver_Backend.h Drivers/Receiver.h TS\STS.h \
-  Basic\Configurations.h Math\Quaternion.h Math/vector_3.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\string.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\math.h \
+  Drivers/drv_Receiver.h Drivers/Receiver_Backend.h Drivers/Receiver.h \
+  TS\STS.h Basic\Configurations.h Math\Quaternion.h Math/vector_3.h \
   Communication/Mavlink/common_ACFly\mavlink.h \
   Communication/Mavlink/common_ACFly/version.h \
   Communication/Mavlink/common_ACFly/common_ACFly.h \
@@ -13,7 +13,7 @@
   Communication/Mavlink/mavlink_helpers.h \
   Communication/Mavlink/checksum.h \
   Communication/Mavlink/mavlink_conversions.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdio.h \
   Communication/Mavlink/mavlink_sha256.h \
   Communication/Mavlink/common_ACFly/./mavlink_msg_heartbeat.h \
   Communication/Mavlink/common_ACFly/./mavlink_msg_sys_status.h \
@@ -184,17 +184,17 @@
   Communication/Mavlink/common_ACFly/./mavlink_msg_debug_float_array.h \
   Communication/Mavlink/common_ACFly/./mavlink_msg_orbit_execution_status.h \
   Communication/Mavlink/common_ACFly/../mavlink_get_info.h \
-  Math\AC_Math.h D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdlib.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\limits.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/DSP/Include\arm_math.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include\core_cm4.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_version.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_compiler.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_armclang.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  Math\AC_Math.h Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\limits.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/DSP/Include\arm_math.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include\core_cm4.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_version.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_compiler.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_armclang.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
   Device/Include/TM4C123\TM4C123GH6PM.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include/mpu_armv7.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include/mpu_armv7.h \
   Device/Include/TM4C123/system_TM4C123.h driverlib\uart.h \
   driverlib\sysctl.h driverlib\gpio.h driverlib\pin_map.h \
   driverlib\interrupt.h driverlib/inc\hw_ints.h driverlib/inc\hw_gpio.h \

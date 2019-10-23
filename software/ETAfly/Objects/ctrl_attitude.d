@@ -1,8 +1,8 @@
 ./objects/ctrl_attitude.o: ControlSystem/ctrl_Attitude.c Basic\Basic.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\string.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\math.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\string.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\math.h \
   ControlSystem/ctrl_Attitude.h ControlSystem/ControlSystem.h \
   MeasurementSystem\MeasurementSystem.h Math\Quaternion.h \
   Math/vector_3.h Basic\Configurations.h Drivers\Receiver.h \
@@ -14,7 +14,7 @@
   Communication/Mavlink/mavlink_helpers.h \
   Communication/Mavlink/checksum.h \
   Communication/Mavlink/mavlink_conversions.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdio.h \
   Communication/Mavlink/mavlink_sha256.h \
   Communication/Mavlink/common_ACFly/./mavlink_msg_heartbeat.h \
   Communication/Mavlink/common_ACFly/./mavlink_msg_sys_status.h \
@@ -186,15 +186,15 @@
   Communication/Mavlink/common_ACFly/./mavlink_msg_orbit_execution_status.h \
   Communication/Mavlink/common_ACFly/../mavlink_get_info.h \
   Drivers\drv_PWMOut.h Drivers\Sensors.h Math\AC_Math.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdlib.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\limits.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/DSP/Include\arm_math.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include\core_cm4.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_version.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_compiler.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_armclang.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\limits.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/DSP/Include\arm_math.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include\core_cm4.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_version.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_compiler.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_armclang.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
   Math\map_projection.h Filters\TD4.h Filters\Filters_Butter.h \
   ControlSystem/ESO_AngularRate.h ControlSystem/ESO_h.h \
   DataStructure\RingBuf.h

@@ -28,7 +28,7 @@ while(True):
 
         img.draw_line(line.line(), color = 127)
         output_str = "%f"%(theta_err)
-
+        sumA = 0
         sumB = 0
         data = bytearray([0xAA,0x55])
         uart.write(data)
@@ -57,6 +57,7 @@ while(True):
         print("found: x=",theta_err,"  y=",float_value)
         #print(rho_err*0.1)
     else:
+        sumA = 0
         sumB = 0
         data = bytearray([0x41,0x43])
         uart.write(data)

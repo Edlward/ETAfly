@@ -1,21 +1,21 @@
 ./objects/main.o: main.c Device/Include/TM4C123\TM4C123GH6PM.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include\core_cm4.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_version.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_compiler.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_armclang.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
-  D:/Keil_v526/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include/mpu_armv7.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include\core_cm4.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_version.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_compiler.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include/cmsis_armclang.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  Z:/Software/Keil5/ARM/CMSIS/5.4.0/CMSIS/Core/Include/mpu_armv7.h \
   Device/Include/TM4C123/system_TM4C123.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdio.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\rt_heap.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdlib.h Basic\Basic.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\string.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  D:\Keil_v526\ARM\ARMCLANG\Bin\..\include\math.h Drivers\drv_main.h \
-  MeasurementSystem\MS_main.h TS\STS.h Modes\Modes.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\rt_heap.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdlib.h Basic\Basic.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\string.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  Z:\Software\Keil5\ARM\ARMCLANG\Bin\..\include\math.h \
+  Drivers\drv_main.h MeasurementSystem\MS_main.h TS\STS.h Modes\Modes.h \
   Communication\DebugComm.h ControlSystem\ctrl_Main.h \
   Basic\Configurations.h Math\Quaternion.h Math/vector_3.h \
   Drivers\Receiver.h Communication/Mavlink/common_ACFly\mavlink.h \
